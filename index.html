@@ -1,70 +1,89 @@
 <!DOCTYPE html>
-<html lang="pt-br" dir="ltr">
-
+<html lang="pt-br">
 <head>
-  <meta charset="utf-8">
-  <title>Pagina do Roberto</title>
-  <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>drogas</title>
+    <link rel="stylesheet" href="drogas.css">
 </head>
-
 <body>
-  <div class="logoGastao">
-    <img height="100px" width="120px" src="OIP.jpg" alt="">
-  </div>
-  <div class="menuPrincipal">
-    <nav>
-      <ul>
-        <li><a href="index.html">Sobre o Basquete</a></li>
-        <li><a href="pagina01.html">Regras</a></li>
-        <li><a href="pagina02.html">Curiosidades</a></li>
-      </ul>
-    </nav>
-  </div>
-  
-  <div class="conteudo">
-    <h1>BASQUETE</h1>
-    <p>O basquetebol, ou simplesmente basquete, é um esporte coletivo praticado entre duas equipes. Ele é jogado com uma bola, onde o objetivo é inseri-la no cesto fixo que está localizado nas extremidades da quadra.
+    <header class="header">
+        <a href="menu.html" class="logo"><img id="logo" src="naodrogas1.png" alt=""></a>
+        <!-- Hamburger icon -->
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <!-- Menu -->
+      <nav class="nav">
+        <ul class="menu">
+            <li><a href="#">Link 01</a></li>
+            <li><a href="#">Link 02</a> </li>
+            <li><a href="#">Sobre</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="conteudo-drogas">
+        <div class="definição">
+            <div class="img-definiçao">
+                <img id= "img.png" src="definição" alt="">
 
-    <p>
-      Atualmente, o basquetebol é um dos jogos olímpicos mais populares no mundo. Nas escolas, é um dos esportes mais praticados nas aulas de educação física.
-    </p>
-    <p>
-      O termo “basquetebol” vem da língua inglesa, onde “basket” significa “cesto” e “ball”, bola. Portanto, no inglês é Basketball.
-    </p>
+            </div>
+            <div class="descrição">
+                <p>
+                Droga é toda e qualquer substância, natural ou sintética que, uma vez introduzida no organismo, modifica suas funções.
+                </p>
+                <p>
+                As drogas naturais são obtidas através de determinadas plantas, de animais e de alguns minerais - a cafeína (do café), a nicotina (presente no tabaco), o ópio (na papoula) e o THC ou tetrahidrocanabinol (da Cannabis).
+                </p>
+                <p>
+                As drogas sintéticas são fabricadas em laboratório, exigindo para isso técnicas especiais. O termo droga, presta-se a várias interpretações, mas ao senso comum é uma substância proibida, de uso ilegal e nocivo ao indivíduo, modificando-lhe as funções, as sensações, o humor e o comportamento.
+               </p>
+            </div>
+        </div>
 
-<h2>Origem</h2>
-
-<p>
-  O basquetebol foi criado em 1891 pelo professor de Educação Física canadense James Naismith (1861-1940).
-</p>
-
-<p>
-  Na época, ele trabalhava na Associação Cristã de Moços de Springfield, Massachusetts, nos Estados Unidos.
-</p>
-
-<p>O esporte surgiu como uma alternativa ao inverno rigoroso da região, em detrimento dos outros praticados ao ar livre como o basebol e o futebol.
-
-  Além disso, a ideia original era criar um esporte menos violento que o futebol americano. Aliado a isso, o professor criador pretendia integrar os alunos nas aulas de educação física e estimular a coletividade dos grupos.
-</p>
- <p>
-  O primeiro jogo oficial de basquete foi disputado em 1892, e teve uma plateia aproximada de 200 pessoas. Nesse mesmo ano, as mulheres começaram a praticar essa modalidade. Já a primeira partida feminina ocorreu em 1896.
- </p>
-
-<p>
-  A modalidade feminina foi inserida pela professora de educação física Senda Berenson (1868-1954). Foi também em 1896 que o esporte chegou ao Brasil, trazido pelo norte-americano Augusto Louis.
-</p>
-
-    <div class="capaRodape">
-      <div id="rodape">
-      Nome: Roberto Carlos Martins Silva.   Numero- 29
-      </div>
+    </section>
+ <!--
+    <section class="conteudo">
+        <div class="geral">
+            <div class="img-drogas"></div>
+            <img src="drogas.jpeg" alt="">
+        <div class="definição"></div>
+            <h1>Drogas</h1>
+         <p>Deacordo com a wikipedia (Visite: <a href="https://brasilescola.uol.com.br/drogas"></a>Drogas)</p>
+            <p>Drogas são toda e qualquer substância capaz de alterar as funções fisiológicas ou psicobiológicas de um organismo. Dessa maneira, um analgésico ou 
+            um antiácido, frequentemente tomados para melhorar mal-estar, também são considerados drogas. Entretanto, o termo “drogas” é comumente usado para 
+            definir as substâncias ilícitas, ligadas ao tráfico e ao mundo do crime. Apesar de não estar errado, definir como drogas apenas essas substâncias é
+            uma abordagem ingênua.
+            É possível observar que boa parte das drogas é legalizada e usada na medicina para tratar os mais variados tipos de doenças.
+            No entanto, algumas delas geram polêmica por causar dependência. No Brasil, há uma grande quantidade de drogas proibidas, 
+            mesmo que sejam para tratamento médico.</p></a>
     </div>
+        <div class="item1">
+            conteúdo 01
+        </div>
+        <div class="item2">
+            conteúdo 02
+        </div>
+        <div class="item3">
+            conteúdo 03
+        </div>
+        <div class="item4">
+            conteúdo 04
+        </div>
+        <div class="item5">
+            conteúdo 05
+        </div>
+        <div class="item6">
+            conteúdo 06
+        </div>
 
-  </div>
-
-
-
-
+    </section>
+-->
+    
+    <footer class="rodape">
+      @gastao vidigal
+      segundo F - manha <br>
+      @Roberto
+    </footer>
 </body>
-
 </html>
